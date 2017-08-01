@@ -3,8 +3,12 @@
 This project exposes an rest api which return the number of hit and timestamp format based on ISO 8601 standard
 
  * Build
- 	>gradlew build
+ ```sh
+ >gradlew build
+  ```
  * Run
-    >gradlew bootRun 
+ ```sh
+ >gradlew bootRun 
+ ```
  * API
- 	> http://localhost:8080/counterapi/counts
+ 	> GET http://localhost:8080/counterapi/counts
